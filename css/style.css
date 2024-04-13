@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+.wrapper {
+min-height: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+
+
+}
+.quiz {
+    justify-content: center;
+}
+.quiz-container {
+text-align: center;
+}
+.answer {
+    margin-left: 5px;
+    background-image: url(/photos/sweden.webp);
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+}
+.button {
+width: 100px;
+height: 50px;
+border-radius: 20%;
+margin: 10px;
+color: rgb(0, 0, 0);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+}
+.title {
+}
+.question {
+justify-content: center;
+    display: flex;
+}
+.options {
+
+}
+.result {
+}
